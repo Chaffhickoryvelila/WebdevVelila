@@ -3,6 +3,13 @@ body {
   padding-top: 100px;
   /* avoid overlap */
   scroll-behavior: smooth;
+  .scrollable-code {
+      overflow-x: auto;
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+      max-width: 100%;
+    }
 }
 
 /* mao ni ang header */
@@ -422,4 +429,5 @@ body {
   font-size: 1rem;
   line-height: 1.6;
 }
+
 
